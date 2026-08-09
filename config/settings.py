@@ -33,7 +33,7 @@ DEBUG = os.environ.get(
     'True'
 ).lower() == 'true'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
